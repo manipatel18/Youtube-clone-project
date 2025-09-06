@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+  <button id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
+  <div class="logo"><img style="height: 50px;width: 50px;" src="https://static.vecteezy.com/system/resources/thumbnails/018/930/575/small_2x/youtube-logo-youtube-icon-transparent-free-png.png"></i>YouTube</div>
+  <div class="search-bar">
+    <input style="width:200px" type="text" placeholder="Search"/><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" margin-bottom="20px" width="25px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    <button style="padding-left: 9px;" aria-label="Search"><i class="fas fa-search"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M440-240q116 0 198-81.5T720-520q0-116-82-198t-198-82q-117 0-198.5 82T160-520q0 117 81.5 198.5T440-240Zm0-280Zm0 160q-83 0-147.5-44.5T200-520q28-70 92.5-115T440-680q82 0 146.5 45T680-520q-29 71-93.5 115.5T440-360Zm0-60q55 0 101-26.5t72-73.5q-26-46-72-73t-101-27q-56 0-102 27t-72 73q26 47 72 73.5T440-420Zm0-40q25 0 42.5-17t17.5-43q0-25-17.5-42.5T440-580q-26 0-43 17.5T380-520q0 26 17 43t43 17Zm0 300q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T80-520q0-74 28.5-139.5t77-114.5q48.5-49 114-77.5T440-880q74 0 139.5 28.5T694-774q49 49 77.5 114.5T800-520q0 64-21 121t-58 104l159 159-57 56-159-158q-47 37-104 57.5T440-160Z"/></svg></i></button></div><button style="border-radius: 80px;margin-right:350px;"><svg style="margin-top:2px" xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 850" width="24px" fill="black"><path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm0-240Zm-40 520v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Zm40-360q17 0 28.5-11.5T520-520v-240q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240q0 17 11.5 28.5T480-480Z"/></svg></button>
+  <div class="user-icons">
+<i class="fas fa-bell" title="Notifications"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M726.67-446.67v-66.66H880v66.66H726.67ZM776-160l-123.33-92 40-53.33 123.33 92L776-160Zm-81.33-495.33-40-53.34L776-800l40 53.33-121.33 91.34ZM206.67-200v-160h-60q-27.5 0-47.09-19.58Q80-399.17 80-426.67v-106.66q0-27.5 19.58-47.09Q119.17-600 146.67-600H320l200-120v480L320-360h-46.67v160h-66.66Zm246.66-158v-244L338-533.33H146.67v106.66H338L453.33-358ZM560-346v-268q27 24 43.5 58.5T620-480q0 41-16.5 75.5T560-346ZM300-480Z"/></svg></i>
+    <i class="fas fa-theme" title="Contrast"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm26.67-67.67q131-11.66 218.83-105.5Q813.33-347 813.33-480T725.5-706.83q-87.83-93.84-218.83-105.5v664.66Z"/></svg></i>
+    <i class="fas fa-user-circle" title="User"></i><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="35px" fill="#000000"><path d="M200-246q54-53 125.5-83.5T480-360q83 0 154.5 30.5T760-246v-514H200v514Zm280-194q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm69-80h422q-44-39-99.5-59.5T480-280q-56 0-112.5 20.5T269-200Zm211-320q-25 0-42.5-17.5T420-580q0-25 17.5-42.5T480-640q25 0 42.5 17.5T540-580q0 25-17.5 42.5T480-520Zm0 17Z"/></svg>
+    
+  </div>
+</div>
+</header>
+
+<div class="container" id="container">
+  <nav class="sidebar" id="sidebar" aria-label="Sidebar Navigation">
+    <ul>
+      <li><i class="fas fa-home"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></i><h2>Home</h2></li>
+<a href="https://www.youtube.com/shorts/63bC07tYtGI" target="_blank"></a>
+      <li><i class="fas fa-fire"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg><a style=" text-decoration: none;
+  color: #555;" href="https://www.youtube.com/shorts/uCtYW1BQHfI" ></i><h2>Shorts</h2> </li></a>
+      <li><i class="fas fa-photo-video"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-80q-33 0-56.5-23.5T80-160v-400q0-33 23.5-56.5T160-640h640q33 0 56.5 23.5T880-560v400q0 33-23.5 56.5T800-80H160Zm0-80h640v-400H160v400Zm240-40 240-160-240-160v320ZM160-680v-80h640v80H160Zm120-120v-80h400v80H280ZM160-160v-400 400Z"/></svg></i><h2>Subscriptions</h2></li>
+      <li><i class="fas fa-folder"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m460-380 280-180-280-180v360ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z"/></svg></i> <h2>Library</h2></li>
+      <li><i class="fas fa-history"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"/></svg></i> <h2>History</h2></li>
+    </ul>
+  </nav>
+
+  <main>
+     <section class="videos">
+       <div class="video-card" onclick="playVideo(this)">
+
+  <div class="thumbnail">
+    <img  src="https://i.ytimg.com/vi/SFsWtcpH_lc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLArfQKqUG2SzppaKyH1Qe62UUZuHg" alt="video">
+    <div class="play-button"></div>
+  </div>
+
+  <div class="hidden-video">
+    <iframe width="300" height="170"
+      src="Vibe Undi - Lyrical _ Mirai _ Teja Sajja, Ritika Nayak _ Karthik Gattamneni _Gowra Hari_Armaan Malik (1).mp4"target="_blank"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="video-info">
+    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00395402-tjevsyutyn-landscape.jpg" alt="Channel Avatar" />
+    <div>
+      <h4>VIBE UNDHI SONG|MIRAI MOVIE|</h4>
+      <p>MIRAI VLOGS</p>
+      <p>5M views • 1 year ago</p>
+    </div>
+  </div>
+</div>
+
+
+        <div class="video-card">
+         
+          <div class="thumbnail">
+    <img  src="https://i.ytimg.com/vi/xHrk9qfOz-A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLADO7y_KRY56SWcTJVtgSjtKm8NnA" alt="video Thumbnail">
+    <div class="play-button"></div>
+  </div>
+
+  <div class="hidden-video">
+    <iframe width="300" height="170"
+      src="https://i.ytimg.com/vi/xHrk9qfOz-A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLADO7y_KRY56SWcTJVtgSjtKm8NnA"target="_blank"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+          <div class="video-info">
+            <img src="https://m.media-amazon.com/images/M/MV5BNzhkMjFhOTItMTczNi00YWM1LTlhZjItOTc4OTA0OWVhZTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Channel Avatar" />
+            <div>
+              <h4>OM BHAGAVATE VASUDEVAYA SONG</h4>
+              <p>God</p>
+              <p>500K views • 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-card">
+          <img src="https://i.ytimg.com/vi/gim5p_kpKaM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCv4Q5Q8w-VY0v0wBqIhXeZWLTKSg" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6JJxmxlEEm3kVSXyJmwT2pkVQV5KrKPx9Q&s" alt="Channel Avatar" />
+            <div>
+              <h4>SALAM ANNALI FULL SONG(TELUGU)</h4>
+              <p>Telugu film music</p>
+              <p>1M views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/sOcFGJ5IUgQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLArK8XjxmoyWf2Qr2KeAXSFSiAm4g" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEzgOYu5reOdjXc5jTpsn9CfiUMO5kb390Q&s" alt="Channel Avatar" />
+            <div>
+              <h4>AYALAA AYALAA Video</h4>
+              <p>VEVO</p>
+              <p>500K views • 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-card">
+          <img src="https://i.ytimg.com/vi/bRTQOQT6D_A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD3mFeYA-8MXFWbuCmQE1Bsny6Kfw" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://i.pinimg.com/originals/33/96/91/339691217a86662c99d2e2402a773ff3.png" alt="Channel Avatar" />
+            <div>
+              <h4>Shaky Official VIdeo</h4>
+              <p><h4>b.Vlogs</h4></p>
+              <p>20M views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/x2J1qbndOmU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYqZ1EXVSl2PF8OqxT_PJKD4nY9A" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FyzZvwd_MdaNoNLjE50aG4xHMIgCuPxOMhq3o5Hkpl6YPolxTwSnrZakKgxlB5y7weE&usqp=CAU" alt="Channel Avatar" />
+            <div>
+              <h4>TOOFAN|CHHAAVA MOVIE|</h4>
+              <p>MADDOCK FILMS</p>
+              <p>567K views • 1 Year ago</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-card">
+          <img src="https://i.ytimg.com/vi/-SWSvgVRIdA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBVaBAnNkgs8NufslRd3mWfi4JxgA" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkQF-1uQV9Yc6s9mtlxXAFI7Vkqjr5UfDtuufFSE8Qk6mlIyijFy9VFW0Om7xtYsn6iI&usqp=CAU" alt="Channel Avatar" />
+            <div>
+              <h4>YAALO YAALAA|ANIMAL MOVIE|</h4>
+              <p>T SERIES FILMS</p>
+              <p>111M views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/laDz2-BZnXc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBrEAOCVF0mpaY4xpApIN7hz1tX8Q" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5A6Mj0cuJDxK7y5A1bNnpJYuetVTOClFnYQ&s" alt="Channel Avatar" />
+            <div>
+              <h4>HacXLerate – byteXL’s Flagship National Hackathon! 🚀</h4>
+              <p>byteXL</p>
+              <p>500K views • 1 months ago</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="video-card">
+         
+          <div class="thumbnail">
+    <img  src="https://i.ytimg.com/vi/jmzr_dJJcjw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDIEHiT7MOLnVr5KIYf0oIYpLEecA" alt="video Thumbnail">
+    <div class="play-button"></div>
+  </div>
+
+  <div class="hidden-video">
+    <iframe width="300" height="170"
+      src="https://i.ytimg.com/vi/xHrk9qfOz-A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLADO7y_KRY56SWcTJVtgSjtKm8NnA"target="_blank"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGcw37dD5KBM88VwEii2T0RjIdrBG2E_7xyw&s" alt="Channel Avatar" />
+            <div>
+              <h4>DHOLIDA VIDEO SONG 8K</h4>
+              <p>Another Channel</p>
+              <p>500K views • 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-card">
+          <img src="https://i.ytimg.com/vi/JADMBzhOqZ0/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gPCgTMA8=&rs=AOn4CLDjpXlUjCC24c5b5dSiY9Z9sWHcOA alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://static.toiimg.com/photo/84680364.cms" alt="Channel Avatar" />
+            <div>
+              <h4>KANCHANA TITLE SONG</h4>
+              <p>HORROR CINEMAS</p>
+              <p>1M views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/EGbkOnZGgrs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAnz--GSBNC103Xnd4lQpZ7ew2PYw alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRab1s8ONadmVacdhtmXmuCUMcpZxyuVIBQB71FYy3Sld8RBxmVbB-bQH9XgSBCfhQJY_8&usqp=CAU" alt="Channel Avatar" />
+            <div>
+              <h4>ANIMAL VS WILD ANIMAL|RGV|SRV|
+              </h4>
+              <p>Cinematica EXPO</p>
+              <p>50M views • 1 months ago</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-card">
+          <img src="https://i.ytimg.com/vi/4yJwCQV9mt0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAairvgZH1JewH7dhSYD7aJPiFZkw" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH348QG7gHyN_gW92FJjKbEQweZYT40Hz0Lw&s" alt="Channel Avatar" />
+            <div>
+              <h4>incredible WELCOME in CHINA!</h4>
+              <p>INTERNATIONAL NEWS</p>
+              <p>1M views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/_InqQJRqGW4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLClz9ESRAswoQgkuNeXDH3AECnFMA" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoMlX4N5agvcUb6s0MNbNGGC0NjtWH6G5Hw&s" alt="Channel Avatar" />
+            <div>
+              <h4>MONEY HEIST web-series|OFFICIAL TRAILER|</h4>
+              <p>NETFLIX</p>
+              <p>20M views • 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-card">
+          <img src="https://i.ytimg.com/vi/RXLM8v4fuoQ/hq720.jpg?v=68b9888d&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA2Yx3LIcZSfri8lNq33uqSJpA_Og" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqzstYJ6Djz2y2Q7ZiZm9NKZ43KuYKiAmKfw&s" alt="Channel Avatar" />
+            <div>
+              <h4>NEW YORK|4K|</h4>
+              <p><h4>INTERNATIONAL VLOGER</h4></p>
+              <p>1M views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/hoNb6HuNmU0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBNHWrd9fUNTp2Uh5QAJtr1dC1CPw" alt="Video Thumbnail" />
+          <div class="video-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqzstYJ6Djz2y2Q7ZiZm9NKZ43KuYKiAmKfw&s" alt="Channel Avatar" />
+            <div>
+              <h4>Khairiyat full video song|CHHICHHORE|</h4>
+              <p><h4>vibe sync 🧿</h4></p>
+              <p>1.2B views • 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
